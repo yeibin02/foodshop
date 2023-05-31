@@ -1,0 +1,149 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    width: 1500px;
+    height: 1800px;
+    margin: 0 auto;
+    height: 300vh;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/* 상단 */
+.menu{
+    width: 100%;
+    height: 55px;
+    text-align: center;
+    line-height: 50px;
+    border-bottom: 1px solid;
+}
+.logo{
+    width: 20%;
+    height: 55px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 30px;
+    float: left;
+    border-bottom: 1px solid;
+    color: rgb(103, 71, 33);
+}
+.menu ul li{
+    height: 55px;
+    list-style: none;
+    float: left;
+    padding: 0 50px;
+    text-align: center;
+    font-size: 15px;
+}
+.search_bar{
+    position: relative;
+    width: 320px;
+    height: 48px;
+    border: 1px solid;
+    float: left;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+input{
+    position: absolute;
+    top: 3px;
+    left: 0;
+    width: 250px;
+    height: 40px;
+    margin-left: 40px;
+    outline: none;
+    border: none;
+}
+/* 메인메뉴 */
+.container{
+    width: 100%;
+    max-width: 1700px;
+    height: 100%;
+    margin: 0;
+    display: flex;
+}
+.contents{
+    width: 300px;
+    height: 100%;
+    border-right: 1px solid;
+}
+.foodh3{
+    margin-bottom: 10px;
+    font-size: 23px;
+    font-weight: 500;
+    color: rgb(103, 71, 33);
+}
+.container .contents a p{
+    font-size: 16px;
+}
+.main_wrap{
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+}
+.main_wrap img{
+    width: 600px;
+    height: 700px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 3px #333;
+}
+h1{
+    height: 100px;
+    line-height: 100px;
+}
+.mainh2{
+    font-size: 35px;
+    border: 1px solid;
+    width: 220px;
+    height: 60px;
+    line-height: 50px;
+    border-radius: 5px;
+    margin:0 auto;
+}
+.magazine{
+    width: 50%;
+    height: 40%;
+    margin-top: 20px;
+    display: flex;
+}
+.magazine img{
+    width: 250px;
+    height: 250px;
+    margin: 20px 30px 20px 0;
+    box-shadow: 5px 5px 3px #333;
+}
+.mg3 img{
+    margin-right: 0;
+}
+footer{
+    width: 100%;
+    padding: 50px 0;
+    background-color: #000;
+    color: #fff;
+}
+footer ul{
+    width: 30%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+footer ul li{
+    
+    display: inline-block;
+    padding: 0 10px;
+}
+span{
+    font-weight: bold;
+    font-size: 50px;
+}
+p{
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+}
