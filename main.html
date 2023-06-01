@@ -5,89 +5,191 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Food Shop</title>
 </head>
 <body>
     <!-- 상단 -->
-    <div class="wrap">
-        <header>
-        <a href="#"><h3 class="logo">FoodShop</h3></a>
-        <div class="menu">
-            <ul>
-                <li><a href="#">점포 안내</a></li>
-                <li><a href="#">쇼핑 정보</a></li>
-                <li><a href="#">브랜드</a></li>
-                <li><a href="#">아트 & 컬쳐</a></li>
-                <li><a href="#">고객 사항</a></li>
-            </ul>
-            <div class="search_bar">
-                <i class="fa-solid fa-magnifying-glass" style="color: #999999;"></i>
-                <input type="search" placeholder="검색어를 입력하세요">
-            </div>
-            
+    <header>
+        <div class="logo"><a href="#">FoodShop</a></div>
+        <ul>
+          <li><a href="#">점포 안내</a></li>
+          <li><a href="#">쇼핑 정보</a></li>
+          <li><a href="#">브랜드</a></li>
+          <li><a href="#">아트&컬쳐</a></li>
+          <li><a href="#">점포 안내</a></li>
+        </ul>
+        <div class="search-box">
+          <a href="#"><i class="fa-solid fa-magnifying-glass"></i> </a>
+          <input type="text" placeholder="검색어를 입력하세요" />
         </div>
-    </header>
+        <div class="icon">
+          <a href="#"><i class="fa-solid fa-user"></i></a>
+        </div>
+      </header>
     <!-- 메인 -->        
-    <div class="container">
-        <div class="contents">
-            <video src="https://www.youtube.com/watch?v=thkD_x6_eaM&pp=ygUT7Iqk7YWM7J207YGsIOq1veq4sA%3D%3D"></video>
-                <h3 class="foodh3">#FoodShop Brand</h3>
-                <a href="#"><p>떠오르는 요리 아티스트들의 창의력을 만나는 시간</p></a>
-        </div>
-            <div class="main_wrap">
-            <h1>What do you like?</h1>
-            <img src="images/pastadraw.jpg" alt="pastadraw">
-            <h2 class="mainh2">Main menu</h2> 
-            <div class="magazine">
-                <div class="mg1">
-                    <img src="images/까르보나라.jpg" alt="까르보나라">
-                    <p>까르보나라</p>
-                    <img src="images/쉬림프로제파스타.jpg" alt="로제파스타">
-                    <p>쉬림프로제 파스타</p>
-                    <img src="images/tomatopasta.jpg" alt="토마토파스타">
-                    <p>토마토 파스타</p>
-                </div>
-                <div class="mg1">
-                    <img src="images/stake1.jpg" alt="">
-                    <p>등심 스테이크</p>
-                    <img src="images/stake2.jpg" alt="">
-                    <p>목살 스테이크</p>
-                    <img src="images/stake4.jpg" alt="">
-                    <p>로즈마리 스테이크</p>
-                </div>
-                <div class="mg3">
-                    <img src="images/리조또1.jpg" alt="">
-                    <p>리조또 set1</p>
-                    <img src="images/필라프1.jpg" alt="">
-                    <p>게살 필라프</p>
-                    <img src="images/필라프2.jpg" alt="">
-                    <p>불고기 필라프</p>
-                </div>
+    <div class="fixbn">
+        <video controls width="250">
+          <source
+            src="images/BB_929abf64-3490-4c16-969d-99f575e1cd6f_FPpreview.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <h2>#FoodShop Brand</h2>
+        <a href="#">
+          <p>
+            떠오르는 요리 아티스트들의 <br />
+            창의력을 만나는 시간
+          </p>
+        </a>
+      </div>
+                <!-- 오른쪽 메인박스 -->
+    <div class="contents">
+        <!-- 이미지 박스 -->
+          <div class="mainbg">
+            <div class="text">
+              <h1>
+                <span>W</span><span>H</span><span>A</span><span>T</span
+                ><br><span>Y</span><span>O</span><span>U</span><br><span>L</span
+                ><span>I</span><span>K</span><span>E</span><span>?</span>
+              </h1>
+              <a href="#">
+                회원가입후 고객님의 구매패턴, <br />
+                취향에 맞는 요리 정보를 만나보세요~
+              </a>
             </div>
-        </div>
-    </div>
-    </div>
+            <img src="images/pastadraw.jpg" alt="요리" />
+            <!-- magazine -->
+            <div class="magazine">
+              <!-- 01 -->
+              <div class="con_bn">
+                <div class="con">
+                  <img src="images/까르보나라.jpg" alt="까르보나라" />
+                  <a href="#">What is lorem ipsum? </a>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
+                    enim, corrupti rem perferendis minima facilis nulla,
+                    necessitatibus voluptatem optio, quasi alias assumenda.
+                  </p>
+                </div>
+                <div class="con">
+                  <img src="images/리조또1.jpg" alt="리조또" />
+                  <a href="#">What is lorem ipsum? </a>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
+                    enim, corrupti rem perferendis minima facilis nulla,
+                    necessitatibus voluptatem optio, quasi alias assumenda.
+                  </p>
+                </div>
+                <div class="con">
+                  <img src="images/stake3.png" alt="stake" />
+                  <a href="#">What is lorem ipsum? </a>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
+                    enim, corrupti rem perferendis minima facilis nulla,
+                    necessitatibus voluptatem optio, quasi alias assumenda.
+                  </p>
+                </div>
+                <div class="con">
+                  <img src="images/stake1.jpg" alt="stake" /><a href="#"
+                    >What is lorem ipsum?
+                  </a>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
+                    enim, corrupti rem perferendis minima facilis nulla,
+                    necessitatibus voluptatem optio, quasi alias assumenda.
+                  </p>
+                </div>
+              </div>
+              <!-- 02 -->
+              <div class="con_bn">
+                <div class="con">
+                  <img src="images/쉬림프로제파스타.jpg" alt="쉬림프로제파스타" />
+                  <a href="#">What is lorem ipsum? </a>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
+                    enim, corrupti rem perferendis minima facilis nulla,
+                    necessitatibus voluptatem optio, quasi alias assumenda.
+                  </p>
+                </div>
+                <div class="con">
+                  <img src="images/필라프2.jpg" alt="불고기필라프" />
+                  <a href="#">What is lorem ipsum? </a>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
+                    enim, corrupti rem perferendis minima facilis nulla,
+                    necessitatibus voluptatem optio, quasi alias assumenda.
+                  </p>
+                </div>
+                <div class="con">
+                  <img src="images/stake2.jpg" alt="stake2" />
+                  <a href="#">What is lorem ipsum? </a>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
+                    enim, corrupti rem perferendis minima facilis nulla,
+                    necessitatibus voluptatem optio, quasi alias assumenda.
+                  </p>
+                </div>
+              </div>
+              <!-- 03 -->
+              <div class="con_bn">
+                <div class="con">
+                  <img src="images/tomatopasta.jpg" alt="토마토파스타" />
+                  <a href="#">What is lorem ipsum? </a>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
+                    enim, corrupti rem perferendis minima facilis nulla,
+                    necessitatibus voluptatem optio, quasi alias assumenda.
+                  </p>
+                </div>
+                <div class="con">
+                  <img src="images/stake4.jpg" alt="stake" />
+                  <a href="#">What is lorem ipsum? </a>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
+                    enim, corrupti rem perferendis minima facilis nulla,
+                    necessitatibus voluptatem optio, quasi alias assumenda.
+                  </p>
+                </div>
+                <div class="con">
+                  <img src="images/필라프1.jpg" alt="vlffkvm" />
+                  <a href="#">What is lorem ipsum? </a>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
+                    enim, corrupti rem perferendis minima facilis nulla,
+                    necessitatibus voluptatem optio, quasi alias assumenda.
+                  </p>
+                </div>
+                <div class="con">
+                  <img src="images/stake3.png" alt="stake" /><a href="#"
+                    >What is lorem ipsum?
+                  </a>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
+                    enim, corrupti rem perferendis minima facilis nulla,
+                    necessitatibus voluptatem optio, quasi alias assumenda.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
     <!-- 하단 -->
     <footer>
-        <ul>
-            <li>
-                <a href="#">
-                    <i class="fa-brands fa-youtube"></i>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa-brands fa-facebook"></i>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <i class="fa-brands fa-instagram"></i>
-                </a>
-            </li>
-        </ul>
+        <div class="gosns">
+          <ul class="gnb-mb-sns">
+            <li><a href="#" class="i-fb">fb</a></li>
+            <li><a href="#" class="i-is">insta</a></li>
+            <li><a href="#" class="i-yt">yt</a></li>
+          </ul>
+        </div>
         <p>Copyright &copy; 2023 marbi</p>
-    </footer>
+      </footer>
+    </div>
 </body>
 </html>
