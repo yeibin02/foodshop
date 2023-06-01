@@ -25,6 +25,9 @@ html, body{
     width: 100%;
     height: 100%;
 }
+header{
+    background: url(../images/bg1.jpg);
+}
 /* 글자 부분 */
 h1{
     font-size: 5.5em; /* em으로 했을 때 14px x 5 = 70px */
@@ -63,14 +66,14 @@ body:hover span{
 }
 }
 span:nth-child(4n) {
-    color: hsl(50, 75%, 55%);
-    text-shadow: 1px 1px hsl(50, 75%, 45%), 2px 2px hsl(50, 45%, 45%),
-    3px 3px hsl(50, 45%, 45%), 4px 4px hsl(50, 75%, 45%);
+    color: hsl(28, 75%, 55%);
+    text-shadow: 1px 1px hsl(33, 75%, 45%), 2px 2px hsl(29, 45%, 45%),
+    3px 3px hsl(35, 45%, 45%), 4px 4px hsl(31, 75%, 45%);
 }
 span:nth-child(4n-1) {
-    color: hsl(135, 35%, 55%);
-    text-shadow: 1px 1px hsl(135, 35%, 45%), 2px 2px hsl(135, 35%, 45%),
-    3px 3px hsl(135, 35%, 45%), 4px 4px hsl(135, 35%, 45%);
+    color: hsl(57, 71%, 48%);
+    text-shadow: 1px 1px hsl(51, 35%, 45%), 2px 2px hsl(55, 35%, 45%),
+    3px 3px hsl(54, 35%, 45%), 4px 4px hsl(39, 35%, 45%);
 }
 span:nth-child(4n-2) {
     color: hsl(155, 35%, 60%);
@@ -78,9 +81,9 @@ span:nth-child(4n-2) {
     3px 3px hsl(155, 25%, 50%), 4px 4px hsl(140, 25%, 50%);
 }
 span:nth-child(4n-3) {
-    color: hsl(30, 65%, 60%);
-    text-shadow: 1px 1px hsl(30, 45%, 50%), 2px 2px hsl(30, 45%, 50%),
-    3px 3px hsl(30, 45%, 50%), 4px 4px hsl(30, 45%, 50%);
+    color: hsl(0, 57%, 61%);
+    text-shadow: 1px 1px hsl(6, 45%, 50%), 2px 2px hsl(2, 45%, 50%),
+    3px 3px hsl(0, 45%, 50%), 4px 4px hsl(0, 45%, 50%);
 }
 h1 span:nth-child(2) {
     animation-delay: 0.05s;
@@ -177,6 +180,7 @@ header ul li a{
     box-sizing: border-box;
     outline: none;
 }
+/* fixbn */
 .fixbn{
     width: 21%;
     height: 100%;
@@ -206,16 +210,19 @@ header ul li a{
     width: 79%;
     float: right;
     position: relative;
+    
 }
 .mainbg{
     width: 80%;
     height: 80%;
     margin: auto;
     position: relative;
+    
 }
 .mainbg > img{
     float: right;
     width: 50%;
+    margin-top: 100px;
 }
 .text{
     width: 80%;
@@ -224,15 +231,22 @@ header ul li a{
     left: 0;
 }
 .text a{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 200;
     display: block;
     margin-top: 50px;
     font-family: "Roboto" sans-serif;
-    
+    width: 360px;
+    border-bottom:1px solid #ea7b3b;
+}
+.text a .pasta{
+    font-size: 30px;
+    color: #ea7b3b;
+    font-weight: bold;
+    text-shadow: none;
 }
 .text a::first-letter{/* 첫 글자만 꾸며줄 때*/
-    font-size: 25px; 
+    font-size: 30px; 
     font-weight: bold;
     color: #659142;
 }
@@ -279,11 +293,12 @@ header ul li a{
 }
 /* footer */
 footer{
-    width: 100%;
+    width: 99.95%;
     height: 10%;
     padding: 30px 0;
-    background-color: rgba(0,0,0,0.6);
+    background: url(../images/bg1.jpg);
     color: #fff;
+    border-left: 1px solid black;
 }
 footer ul{
     width: 30%;
@@ -298,7 +313,8 @@ footer ul li{
     padding: 0 10px;
 }
 footer p{
-    color: #eee;
+    color: #000000;
+    font-size: 15px;
     text-align: center;
 }
 .gnb-mb-sns{
@@ -325,9 +341,9 @@ footer p{
     height: 100%;
     transition: background-position 0.3s;
 }
-/* .gnb-mb-sns li a:hover{
-    background-color: #000;
-} */
+.gnb-mb-sns li a:hover{
+    background-color: black;
+}
 .i-fb::before{
     background: url(../images/icon_sns.svg) no-repeat;
     background-position: 0 0;
